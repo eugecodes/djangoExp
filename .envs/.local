@@ -1,0 +1,26 @@
+# ------------------------------------------------------------------------------
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=test
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+# ------------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Settings
+SETTINGS_MODULE=config.settings.local
+# ------------------------------------------------------------------------------
+# Swagger Settings
+SWAGGER_USERNAME=palomita
+SWAGGER_PASSWORD=123456
+
+
+# Mail Settings
+EMAIL_MODE=EXTERNAL_API
+SENDIN_BLUE_API_KEY=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
+
+# SIPS
+SIPS_CONSUMER_KEY=7abec124-6fca-4ee0-8f37-239d9975baf8
+SIPS_CONSUMER_SECRET=41a60911-561e-4295-ab98-653d15bcf904

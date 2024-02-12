@@ -1,0 +1,23 @@
+# Web server
+uvicorn>=0.22.0  # https://pypi.org/project/uvicorn/
+httpx==0.24.1  # https://pypi.org/project/httpx/
+
+# Mail
+sib-api-v3-sdk==7.6.0  #  https://pypi.org/project/sib-api-v3-sdk/
+
+# Database
+psycopg2-binary  # https://pypi.org/project/psycopg2/
+
+# Password
+passlib[bcrypt]==1.7.4  # https://pypi.org/project/passlib/
+argon2-cffi==21.3.0  # https://pypi.org/project/argon2-cffi/
+
+# Sentry
+sentry-sdk[fastapi]==1.25.1  # https://pypi.org/project/sentry-sdk/
+
+# Commands
+typer[all]==0.9.0  # https://pypi.org/project/typer/
+
+# Django
+Django==4.2
+django-ninja==0.22.2
